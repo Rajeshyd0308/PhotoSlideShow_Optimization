@@ -2,6 +2,8 @@ import os
 import pandas as pd
 import numpy as np
 
+def concat_str(i1, i2):
+    return str(i1)+str(i2)
 
 def readfile(filename):
     with open(filename) as file:
